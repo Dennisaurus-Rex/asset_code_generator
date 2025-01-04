@@ -1,5 +1,6 @@
 name: asset_code_generator
 description: Generates Dart code based on the contents of the assets/ directory.
+publish_to: none
 version: 1.0.0
 
 environment:
