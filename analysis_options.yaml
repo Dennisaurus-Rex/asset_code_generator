@@ -1,0 +1,16 @@
+include: package:lints/recommended.yaml
+formatter:
+  page_width: 80
+  trailing_commas: preserve
+linter:
+  rules:
+    await_only_futures: false
+    avoid_print: false
+    require_trailing_commas: true
+    prefer_single_quotes: true
+    cancel_subscriptions: true
+analyzer:
+  errors:
+    unused_import: warning
+    require_trailing_commas: warning
+    invalid_annotation_target: ignore
